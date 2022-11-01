@@ -1,0 +1,33 @@
+.app-component{
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.app-component h2{
+    font-weight: bold;
+    bottom: 2rem;
+    text-align: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, rgb(58 65 111 / 50%) 0 -3px 0 inset;
+    border-radius: 6px;
+    transition: box-shadow .15s,transform .15s;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.app-component input {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-family: "JetBrains Mono",monospace;
+    font-size: inherit;
+    margin-bottom: 1rem;
+    
+}

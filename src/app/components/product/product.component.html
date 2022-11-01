@@ -1,0 +1,17 @@
+<div class="product-block">
+    <img [src]="product.image" [alt]="product.title">
+    <div class="product-item">
+        <h2>{{ product.title }}</h2>
+        <p class="product-price">Price: <span class="font-bold">{{ product.price | currency}}</span></p>
+
+        <button
+        (click)="details = !details"
+        
+        >{{ details ? 'Hide ' : 'Show '}}Details</button>
+        <div *ngIf="details">
+            <p class="product-description">{{ product.description }}</p>
+            <p class="product-rate"> Rate: {{ product.rating.rate }}</p>
+        </div>
+    </div>
+    
+</div>
